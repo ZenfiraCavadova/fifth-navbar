@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter",sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+:root{
+    --Green: #B7D6B6;
+    --Primary: #2D2E2E;
+}
+
+.navbar{
+    width: 1920px;
+    height: 96px;
+    margin: 20px;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+
+.navbar .logo{
+    width: 220px;
+    height: 90px;
+    background: var(--Green);
+    margin: 8px 0;
+    display: inline-block;
+}
+.navbar  li{
+    display: inline-block;
+
+}
+
+.navbar  .nav-contain--one li>a, .navbar  .nav-contain--one li>button{
+    color: var( --Primary);
+    display: inline-block;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.navbar  .nav-contain--one li>button{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.navbar  .nav-contain--one li  img{
+    position: absolute;
+    top: -10%;
+}
+
+.navbar  .nav-contain--two li>a{
+    color: var(--Primary);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.navbar  .nav-contain--one>li:first-child{
+    margin-right: 56px;
+}
+
+.navbar  .nav-contain--two li:first-child{
+    margin-right: 67px;
+}
+
+.navbar  .icons li:first-child{
+    margin-right: 32px;
+}
+
+
+.navbar .nav-contain--one{
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%,-50%);
+}
+
+.navbar .nav-contain--two{
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%,-50%);
+}
+
+.navbar .icons {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 85%;
+    transform:  translate(-50%,-50%);
+    margin-left: 100px;
+    margin-right: 33px; 
+}
+
+ /* .active{
+    width: 90px;
+    height: 0px;
+    text-decoration: overline  solid 3px var(--Primary);
+} */
